@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-case-2/orders": ["libs/orders/src/index.ts"],
+      "@nx-case-2/orders/server": ["libs/orders/src/server.ts"],
+      "@nx-case-2/products": ["libs/products/src/index.ts"],
+      "@nx-case-2/products/server": ["libs/products/src/server.ts"],
+      "@nx-case-2/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@nx-case-2/shared-ui/server": ["libs/shared/ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
