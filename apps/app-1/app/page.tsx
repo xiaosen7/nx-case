@@ -1,5 +1,4 @@
 import { Orders } from '@nx-case-2/orders';
-import { Products } from '@nx-case-2/products';
 
 export default function Index() {
   /*
@@ -9,7 +8,6 @@ export default function Index() {
    */
   return (
     <div>
-      <Products />
       <Orders />
     </div>
   );
